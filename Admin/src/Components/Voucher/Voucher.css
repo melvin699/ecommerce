@@ -1,0 +1,32 @@
+.voucher-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-left: 270px; 
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.voucher-details {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.voucher-details h3 {
+  margin-top: 0;
+}
+
+.voucher-details p {
+  margin-bottom: 10px;
+}

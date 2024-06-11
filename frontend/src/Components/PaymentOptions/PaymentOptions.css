@@ -1,0 +1,44 @@
+.payment-options-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.payment-radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.credit-card-inputs,
+.expiration-date-selects {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.credit-card-inputs .field,
+.expiration-date-selects .field {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .payment-options-container {
+    padding: 10px;
+  }
+  
+  .credit-card-inputs .field,
+  .expiration-date-selects .field {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

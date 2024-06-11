@@ -1,0 +1,144 @@
+.productdisplay {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.display-left {
+  display: flex;
+  gap: 12px;  
+}
+
+.displayproduct-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.displayproduct-img-list img {
+  height: 50px;
+}
+
+.displayproduct-main-img {
+  height: 350px;
+  width: auto;
+}
+
+.display-right {
+  margin: 0 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display-right h1 {
+  color: navy;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.display-right-star {
+  display: flex;
+  align-items: center;
+}
+
+.display-right-star img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.display-right-star img.selected {
+  filter: grayscale(0%);
+}
+
+.display-right-star p {
+  margin-left: 5px;
+}
+
+.displayproduct-prices {
+  display: flex;
+  margin: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  gap: 22px;
+}
+
+.displayproduct-old-price {
+  color: rgb(61, 65, 68);
+  text-decoration: line-through;
+}
+
+.displayproduct-new-price {
+  color: red;
+}
+
+.displayproduct-size h1 {
+  margin-top: 0;
+  color: #656565;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.displayproduct-sizes {
+  display: flex;
+  margin: 10px 0;
+}
+
+.displayproduct-sizes div {
+  padding: 8px 16px;
+  background: #fcf5f5;
+  border: 1px solid #ebe5e5;
+  border-radius: 300px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.add-to-cart {
+  background-color: green;
+  color: white;
+  border: none;
+  margin-right: 10px; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.compare-prices {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.displayproduct-category span {
+  font-weight: 600;
+}
+
+.displayproduct-category {
+  margin: 10px;
+}
+
+.selected {
+  color: #1db924;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.displayproduct-sizes div.selected {
+  background-color: #d80606;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.add-to-cart,
+.compare-prices {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}

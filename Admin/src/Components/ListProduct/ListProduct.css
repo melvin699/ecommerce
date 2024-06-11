@@ -1,0 +1,34 @@
+.list-product-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: 270px;
+}
+
+.main-format {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+}
+
+.list-allproducts {
+  margin-top: 10px;
+}
+
+.list-product > p {
+  padding: 10px;
+}
+
+.listproduct-icon {
+  width: 100px;
+  height: auto;
+}
+
+.remove-icon {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  cursor: pointer;
+}

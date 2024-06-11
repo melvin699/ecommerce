@@ -1,0 +1,64 @@
+
+.messages-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .message-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-content {
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .message-content p {
+    margin: 0;
+  }
+  
+  .message-content.user-reply {
+    align-self: flex-start;
+    background-color: #0945a0;
+  }
+  
+  .message-content.admin-reply {
+    align-self: flex-end;
+    background-color: #0bcc3b;
+  }
+  
+  .reply-form {
+    margin-top: 10px;
+  }
+  
+  .reply-form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    max-width: 100%;
+  }
+  
+  .reply-form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .reply-form button:hover {
+    background-color: #0056b3;
+  }
+  
