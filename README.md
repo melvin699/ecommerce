@@ -4,7 +4,7 @@
 This project is a price comparison website designed to help users find the best prices for products across various online retailers.
 The website scrapes product information from different sources and displays them in a user-friendly interface,
 allowing users to compare prices, read reviews, and make informed purchasing decisions.
-(NB) (I ADDED PRODUCTS MANNUALY FOR PRICES I WAS NOT ABLE TO GET API'S FROM OTHER RETAILERS FOR SCRAPPING .BUT THE GENERAL CONCEPT OF PRICE COMPARISON WEBSITE IS HERE)
+(NB) (I ADDED PRODUCTS MANNUALY FOR PRICES I WAS NOT ABLE TO GET API'S FROM OTHER RETAILERS FOR SCRAPPING BUT THE GENERAL CONCEPT OF A PRICE COMPARISON WEBSITE IS HERE)
 
 ## Features
 - Product Search: Users can search for products by name, category, or brand.
